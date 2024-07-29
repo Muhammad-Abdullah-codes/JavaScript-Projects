@@ -1,0 +1,17 @@
+.cont {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 30px;
+}
+
+.box {
+ height: 100px;
+ width: 100px;
+ border: solid 2px black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bolder;
+ font-size: x-large;
+}

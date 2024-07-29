@@ -1,0 +1,91 @@
+body {
+ background-color: black;
+ padding: 10px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ font-family: Arial, Helvetica, sans-serif;
+ color: white;
+}
+
+.title {
+ font-size: 50px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+.js-result {
+ margin-top: 0px;
+ margin-bottom: 15px;
+ font-size: 45px;
+ text-align: center;
+ width: 100%;
+ max-width: 400px;
+ word-wrap: break-word;
+}
+
+.button-row {
+ display: flex;
+ justify-content: center;
+ margin-bottom: 10px;
+}
+
+.gray,
+.gray1,
+.orange {
+ background-color: rgb(51, 51, 51);
+ color: white;
+ border: none;
+ height: 60px;
+ width: 60px;
+ border-radius: 30px;
+ font-size: 26px;
+ cursor: pointer;
+ margin: 5px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: background-color 0.3s;
+}
+
+.gray1 {
+ border-radius: 5px;
+ height: 40px;
+ width: 100px;
+ margin-left: 86px;
+}
+
+.orange {
+ background-color: rgb(254, 160, 10);
+}
+
+.gray:hover,
+.gray1:hover,
+.orange:hover {
+ background-color: rgb(75, 75, 75);
+}
+
+@media screen and (max-width: 600px) {
+ .title {
+  font-size: 35px;
+ }
+
+ .js-result {
+  font-size: 35px;
+ }
+
+ .gray,
+ .gray1,
+ .orange {
+  height: 50px;
+  width: 50px;
+  font-size: 20px;
+ }
+
+ .gray1 {
+  width: 80px;
+  height: 35px;
+ }
+}
